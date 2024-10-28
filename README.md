@@ -28,11 +28,11 @@ This project sets up an isolated internal network utilizing **Security Onion** f
    - **Security Onion Management IP**: `192.168.1.3/24`
    - **Security Onion Monitor IP**: `192.168.1.4/24`
 
-## Step 3: Check That The Network Configurations Work
+### Step 3: Check That The Network Configurations Work
 1. Confirm connectivity by using the `ping` command from each machine.
 2. Access the Security Onion web interface on the attackers machine (or victim if you want to, but I chose attacker) by typing `http://192.168.1.3` into the web browser.
 
-## Step 4: Start Scanning From Attacker
+### Step 4: Start Scanning From Attacker
 1. Run Nmap Scan
    - Use nmap to scan the victim machine from the attackers machine. This should trigger alerts in Security Onion.
    - After scanning, check Security Onion's dashboard to confirm detection.
