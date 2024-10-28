@@ -38,6 +38,6 @@ This project sets up an isolated internal network utilizing **Security Onion** f
    - After scanning, check Security Onion's dashboard to confirm detection.
    - This is only an example of what you can do to trigger alerts.
 
-## Experiment Ideas
+## Other Ideas To Try
 - Try different scan types, such as UDP scans or version detection scans, to see how Security Onion responds.
 - Experiment with other tools like **Netcat** or **Metasploit** to generate different kinds of alerts and observe the varied logs.
