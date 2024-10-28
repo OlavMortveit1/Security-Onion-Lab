@@ -43,6 +43,12 @@ Here is the network architecture for this lab:
 
 ![Architecture Diagram](architecture.png)
 
+## Example Alerts from Security Onion
+After running an Nmap scan (default) from the attacker machine, Security Onion generates alerts that indicate suspicious activities. Here are some examples of alerts captured during the scan:
+
+![Nmap Alert](nmap_alert.png)
+
+
 ## Other Ideas To Try
 - Try different scan types, such as UDP scans or version detection scans, to see how Security Onion responds.
 - Experiment with other tools like **Netcat** or **Metasploit** to generate different kinds of alerts and observe the varied logs.
