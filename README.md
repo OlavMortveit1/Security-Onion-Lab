@@ -17,7 +17,7 @@ This project sets up an isolated internal network utilizing **Security Onion** f
 1. Create three virtual machines:
    - **Kali Attacker**
    - **Kali Victim**
-   - **Security Onion** (Airgapped)
+   - **Security Onion** (EVAL and Airgapped)
    
 2. Configure all VMs to use an **Internal Network** in your virtualization platform.
 
